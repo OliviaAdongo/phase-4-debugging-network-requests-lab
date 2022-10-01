@@ -1,6 +1,6 @@
 class ToysController < ApplicationController
   wrap_parameters format: []
-
+ 
   def index
     toys = Toy.all
     render json: toys
